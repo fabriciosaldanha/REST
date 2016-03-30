@@ -1,0 +1,25 @@
+REST
+	Representational State Transfer
+	Baseado na forma de funcionamento da WEB
+
+	Roy Fielding
+	Architectural Styles and Design of Network-Based Software Architectures
+
+	REST é um modelo arquitetural. A web segue o mesmo modelo. REST não é baseado em HTTP. Este é apenas um dos protocolos sobre o qual pode ser implementado o REST
+
+	REST Constraints
+		Cliente-Servidor
+		
+		Stateless
+		
+		Cache - Tempo de vida da informação fornecida
+		
+		Interface Uniforme - Acesso a um recurso qualquer a partir de uma interfqace comum. URI
+		
+		Sistema em Camadas - Log, Autenticação, etc..
+		
+		Codigo sob demanda
+		
+		Representações
+		
+		HATEOAS - Hypermedia as the Engine of Application State. Por exemplo, o cliente solicita as informações de determinado usuário, o sistema retorna as informações do usuário no formato solicitado e retorna uma lista com as ações que são possíveis a partir daquele ponto da aplicação como voltar, excluir, editar.
